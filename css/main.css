@@ -1,0 +1,43 @@
+body {
+  color: #ffffff;
+}
+
+form {
+  margin-top: 45vh;
+}
+
+.graphic {
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.graphic canvas {
+  width: 50%;
+}
+
+.search-weather {
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -100;
+  -webkit-filter: brightness(50%);
+  filter: brightness(30%);
+}
+
+#forecast {
+  font-size: 1em;
+}
+
+#next,
+#return {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}
